@@ -5,11 +5,10 @@ from PIL import Image
 from sklearn.preprocessing import StandardScaler
 
 
-with open(r"D:\Smile Project Streamlit\SmileImageProject\model.pkl", "rb") as f:
+with open("/mount/src/smiledetectionapp/model.pkl", "rb") as f:
     model = pickle.load(f)
 
-
-with open(r"D:\Smile Project Streamlit\SmileImageProject\scaler.pkl", "rb") as f:
+with open("/mount/src/smiledetectionapp/scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 
